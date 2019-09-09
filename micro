@@ -1,0 +1,8 @@
+T=int(input())
+for i in range(T):
+    n,maxN=list(map(int,input().split()))
+    minE=min(list(map(int,input().split())))
+    if maxN-minE>=1:
+        print(maxN-minE)
+    else:
+        print(0)
